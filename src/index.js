@@ -34,6 +34,6 @@ const myFileDeleter = async (fileName) => {
 //myFileWriter("index.txt","Hello world");
 //myFileReader("index.txt");
 //myFileUpdater("index.txt","\n I this second add");
-myFileDeleter("index.txt");
+//myFileDeleter("index.txt");
 
 module.exports = { myFileWriter, myFileUpdater, myFileReader, myFileDeleter }
